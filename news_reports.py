@@ -34,9 +34,9 @@ group by date) as all_summary
 
 on error_summary.date = all_summary.date
 
-where error_size::float * 100/all_size > 1;
+where error_size::float * 100/all_size > 1
+order by percent desc;
 """
-
 
 def show_popular_articles():
     """Print out the top 3 articles by popularity among website visitors"""
