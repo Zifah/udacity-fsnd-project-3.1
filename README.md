@@ -7,7 +7,7 @@ This program answers some analytical questions about a theoretical news website 
 - On which days did more than 1% of requests lead to errors?
 
 ### Running the program
-1. Logon to your Linux machine which holds the PGSQL database news (populated from newsdata.sql) via the CLI
+1. Logon to your Linux machine which holds the PGSQL database news (populated from *newsdata.sql*) via the CLI
 2. Ensure that *Python 2.7* or higher is installed on the machine
 3. Ensure that *psycopg2* Python package is installed
 4. Copy *news_reports.py* from this project to your machine 
