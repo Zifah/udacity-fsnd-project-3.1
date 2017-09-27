@@ -1,4 +1,5 @@
 # Python 2.7.12 or Higher
+""" Logs Analysis """
 import psycopg2
 
 DBNAME = "news"
@@ -38,6 +39,7 @@ where error_size::float * 100/all_size > 1
 order by percent desc;
 """
 
+
 def show_popular_articles():
     """Print out the top 3 articles by popularity among website visitors"""
     cursor = DB_CONNECTION.cursor()
@@ -72,7 +74,6 @@ def show_high_error_days():
     cursor.execute(ERRONEOUS_DAY_QUERY)
     results = cursor.fetchall()
 
-
     print("HIGH ERROR DAYS")
     print("-------------------------------")
     for date, percent in results:
@@ -81,7 +82,7 @@ def show_high_error_days():
 
 
 if __name__ == '__main__':
-    """Print out all the statistics"""
+    # Print out all the statistics
     DB_CONNECTION = psycopg2.connect(database=DBNAME)
     show_popular_articles()
     show_authors_by_popularity()
