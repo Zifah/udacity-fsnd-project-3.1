@@ -12,4 +12,4 @@ This program answers some analytical questions about a theoretical news website 
 3. Ensure that *psycopg2* Python package is installed
 4. Copy *news_reports.py* from this project to your machine 
 5. Set your CLI working directory to the one containing *news_reports.py*
-5. Run command "python news_reports.py". If everything is set up correctly, the program will print out the answer to each question sequentially, in the same order as listed here (see sample-output.txt for a sample of what to expect)
+5. Run command "python news_reports.py". If everything is set up correctly, the program will print out the answer to each question sequentially, in the same order as listed above (see sample-output.txt for a sample of what to expect)
