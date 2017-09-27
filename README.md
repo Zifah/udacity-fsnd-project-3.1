@@ -1,4 +1,4 @@
-# Udacity Full Stack Web Developer Nanodegree Project 3.1 (Movie trailer)
+# Udacity Full Stack Web Developer Nanodegree Project 3.1 (Logs Analysis)
 This program answers some analytical questions about a theoretical news website by running SQL queries against the website database.
 
 ### Questions answered
